@@ -1,0 +1,235 @@
+/**{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial;
+}*/
+.SeccionBotones1{
+  width: 100%;
+  padding-left: 660px;
+}
+.SeccionBotones1 button{
+  border-radius: 17px;
+  width: 22vh;
+}
+
+
+
+.SeccionBotones1 :hover{
+  color: white;
+}
+
+#boton1{
+  background: linear-gradient(to bottom, rgb(14, 111, 156) 76%, white 86%);
+  color: white;
+  font-size: 21px;
+  border-top: 2px solid white; 
+  border-right: 2px solid white;
+border-left: 2px solid white; 
+  border-bottom: none; 
+}
+
+
+#boton2{
+  background: linear-gradient(to bottom, rgb(36, 210, 30) 76%, white 86%);
+  color: white;
+  font-size: 21px;
+  border-top: 2px solid white; 
+  border-right: 2px solid white; 
+border-left: 2px solid white; 
+  border-bottom: none; 
+}
+
+#boton3{
+  background: linear-gradient(to bottom, rgb(14, 111, 156) 76%, white 86%);
+  color: white;
+  font-size: 21px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+border-left: 2px solid white; 
+  border-bottom: none;
+}
+
+*/
+.contenedorHijo{
+  width: 100%;
+  margin-top:-14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+  margin: 0px 0px 30px 0px;
+}
+.contenedorHijo h6{
+  font: 400 calc(23px* 0.67) / 20px Roboto, sans-serif;
+  margin: 0 0 12px;
+}
+
+
+.card-body label{
+  font-size: 20px;
+  margin: 20px 0px 11px 0px;
+}
+.card-body input{
+  height: 6vh;
+}
+
+button.btn.btn-outline-primary{
+  margin: 0px 8px 0px 10px;
+  width: 28vh;
+}
+button.btn.btn-outline-primary:hover{
+  background-color: rgb(14, 111, 156);
+}
+
+.col-sm-9.text-secondary {
+  margin: 40px 0px;
+}
+
+.col-xl-9.col-lg-9.col-md-12.col-sm-12.col-12 {
+  box-shadow: 2px 1px 21px 0px gray;
+  height: 47vh;
+  
+}
+
+.small.font-italic.text-muted.mb-4 {
+  font-size: 2vh;
+  margin: 17px;
+}
+
+input{
+
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+/*.ladoIzquierdo{
+  width: 19%;
+  height: 49vh;
+  border: rgb(185, 179, 179) 5px solid;
+  text-align: center;
+
+}
+.imagen img{
+  width: 83%;
+  margin-top: 15px;
+
+}
+.botones button{
+  background-color: white;
+  width: 21vh;
+  height: 5vh;
+}
+
+
+.botonInformacion{
+  background-color: rgb(233, 229, 229);
+  border: rgb(233, 229, 229) 5px solid;
+  border-radius: 14px;
+  margin: 0px 40px 10px 61px;
+}
+.botonInformacion svg{
+  margin: -7px;
+  width: 5vh;
+  height: 3vh;
+
+}
+
+button{
+  width: 23vh;
+  height: 5vh;
+  border-radius: 7px;
+}
+.ladoDerecho{
+  width: 116vh;
+  height: 49vh;
+  border: rgb(180, 179, 179) 5px solid;
+  text-align: center;
+  box-shadow: 2px 11px 15px 1px rgb(179, 177, 177);
+
+}
+.sectionInputs{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 34px;
+}
+
+.sectionInputs input{
+  width: 21vh;
+  height: 3vh;
+}
+
+
+.botonGuardar{
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.seccionBtnGuardar{
+  background-color:rgb(233, 229, 229);
+  border: rgb(233, 229, 229) 5px solid;
+  border-radius: 14px;
+  margin: 12px 104px 10px 61px;
+}
+.seccionBtnGuardar button{
+  background-color: white;
+  width: 23vh;
+  height: 5vh;
+}
+.seccionBtnGuardar svg{
+  margin: -7px;
+  width: 5vh;
+  height: 3vh;
+
+}
+
+.seccionBtnGuardar :hover{
+  background-color: gray;
+  color: white;
+}
+.botonEditar{
+  background-color:rgb(233, 229, 229);
+  border: rgb(233, 229, 229) 5px solid;
+  border-radius: 14px;
+}
+.botonEditar svg{
+  margin: -7px;
+  width: 5vh;
+  height: 3vh;
+
+}
+
+*/
+
+body{
+  background: #f7f7ff;
+  margin-top:20px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: .25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+  margin-right: .5rem!important;
+}
+.col-lg-8 .card-body{
+  width: 98%;
+  height: 44vh;
+}
+.col-lg-8{
+  padding: 0px 0vh 50px 0px;
+}

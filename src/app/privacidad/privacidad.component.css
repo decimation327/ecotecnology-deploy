@@ -1,0 +1,74 @@
+.contenedor{
+    margin:3vh 34vh 14vh 34vh;
+    padding: 7vh 7vh 7vh 7vh ;
+    border: 5px  rgb(14, 111, 156) solid;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorHijo{
+    margin:auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*contenido completo párrafo primer parrrafo*/
+
+.primerParrafo {
+    padding: 0vh 0vh 4vh 0vh ;
+}
+.primerParrafo h2{
+    padding: 0vh 0vh 2vh 0vh ;
+}
+
+/*contenido completo párrafo segundo parrrafo*/
+
+.segundoParrafo{
+    padding: 4vh 0vh 4vh 0vh ;
+}
+.segundoParrafo h2{
+    padding: 0vh 0vh 2vh 0vh ;
+}
+
+/*contenido completo párrafo tercer parrrafo*/
+
+.tercerParrafo{
+    padding: 4vh 0vh 3vh 0vh ;
+}
+.tercerParrafo h2{
+    padding: 0vh 0vh 2vh 0vh ;
+}
+.tercerParrafo .mover{
+    padding-left: 10vh;
+}
+
+/*contenido completo párrafo cuarto parrrafo*/
+
+.cuartoParrafo{
+    padding: 4vh 0vh 3vh 0vh ;
+}
+.cuartoParrafo h2{
+    padding: 0vh 0vh 2vh 0vh ;
+}
+
+/*contenido completo párrafo quinto parrrafo*/
+
+.quintoParrafo{
+    padding: 4vh 0vh 3vh 0vh ;
+}
+.quintoParrafo h2{
+    padding: 0vh 0vh 2vh 0vh ;
+}
+
+/*contenido completo párrafo sexto parrrafo*/
+
+.sextoParrafo{
+    padding: 4vh 0vh 3vh 0vh ;
+}
+.sextoParrafo h2{
+    padding: 0vh 0vh 2vh 0vh ;
+}

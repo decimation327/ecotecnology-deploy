@@ -1,0 +1,90 @@
+<div>
+    <div>
+        <app-nav-usuario></app-nav-usuario>
+    </div>
+</div>
+<div class="contenedorPadre">
+    <div class="SeccionBotones1">
+        <button id="boton1">Informacion Personal</button>
+        <a [routerLink]="[ '/tarjetaCredito']"><button id="boton2">Informacion Direccion</button></a>
+    </div>
+
+    <div class="contenedorHijo">
+        <div class="container">
+            <div class="main-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex flex-column align-items-center text-center">
+                                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                                            alt="Maxwell Admin">
+                                    <button class="btn btn-outline-primary">Subir Imagen</button>
+                                </div>
+                                <hr class="my-4">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Nombre de Usuario:</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="John Doe">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Email:</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="john@example.com">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Nombres Completos:</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="(239) 816-9029">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Aplellidos Completos:</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="(320) 380-4539">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Contraseña:</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" class="form-control" value="Bay Area, San Francisco, CA">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-9 text-secondary">
+                                        <button class="btn btn-outline-primary">Editar Perfil</button>
+                                        <button class="btn btn-outline-primary">Guardar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <app-footer></app-footer>
+    </div>
